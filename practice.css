@@ -1,0 +1,72 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-color:#eee;
+    font-family: 'poppins',sans-serif;
+}
+
+.navtoggle {
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.bars {
+    position: absolute;
+    left: 22.4%;
+    top:6px;
+}
+
+.bars span {
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+
+.sidebar {
+    background-color: lightgray;
+    left: 0px;
+    width: 300px;
+    height: 22em;
+    transform: translateX(-300px);
+    transition: 0.5s;
+} 
+
+.sidebar ul {
+    margin-bottom: 40px;
+}
+
+.sidebar ul li {
+    padding: 20px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+.sidebar ul li a {
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.social ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+
+.showmenu {
+    transform: translateX(0);
+}
